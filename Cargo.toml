@@ -1,6 +1,21 @@
 [package]
-name = "fraction"
+name = "zeuhl_fraction"
 version = "0.1.0"
 edition = "2024"
+
+description = "A simple fraction used in matrix operations"
+
+documentation = "https://docs.rs/zeuhl_fraction/"
+homepage = "https://crates.io/crates/zeuhl_fraction"
+repository = "https://github.com/ZeuhL202/simple-fraction"
+
+readme = "README.md"
+
+keywords = ["zeuhl","fraction","math"]
+categories = ["mathmatics"]
+
+
+[badges]
+maintenance = { status = "actively-developed" }
 
 [dependencies]
