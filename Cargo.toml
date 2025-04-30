@@ -12,7 +12,7 @@ repository = "https://github.com/ZeuhL202/simple-fraction"
 readme = "README.md"
 
 keywords = ["zeuhl","fraction","math"]
-categories = ["mathmatics"]
+categories = ["mathematics"]
 license = "MIT"
 
 [badges]
