@@ -13,7 +13,7 @@ readme = "README.md"
 
 keywords = ["zeuhl","fraction","math"]
 categories = ["mathmatics"]
-
+license = "MIT"
 
 [badges]
 maintenance = { status = "actively-developed" }
