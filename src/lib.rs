@@ -65,7 +65,7 @@ impl Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// assert_eq!(Fraction::new( 1, 2).len(), 3); //  "1/2" is 3 characters long
     /// assert_eq!(Fraction::new(-1, 3).len(), 4); // "-1/3" is 4 characters long
@@ -87,7 +87,7 @@ impl Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let mut fraction = Fraction::new(4, 8);
     /// fraction.reduce();
@@ -115,7 +115,7 @@ impl Fraction {
 ///
 /// # Examples
 /// ```
-/// use fraction::{Fraction, match_each_denominator};
+/// use zeuhl_fraction::{Fraction, match_each_denominator};
 /// let mut a = Fraction::new(1, 2);
 /// let mut b = Fraction::new(3, 4);
 /// match_each_denominator(&mut a, &mut b);
@@ -143,7 +143,7 @@ impl ops::Add for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -167,7 +167,7 @@ impl ops::AddAssign for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let mut a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -189,7 +189,7 @@ impl ops::Sub for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -213,7 +213,7 @@ impl ops::SubAssign for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let mut a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -235,7 +235,7 @@ impl ops::Mul for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -257,7 +257,7 @@ impl ops::MulAssign for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let mut a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -278,7 +278,7 @@ impl ops::Div for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -310,7 +310,7 @@ impl ops::DivAssign for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let mut a = Fraction::new(1, 2);
     /// let b = Fraction::new(3, 4);
@@ -336,7 +336,7 @@ impl fmt::Display for Fraction {
     ///
     /// # Examples
     /// ```
-    /// use fraction::Fraction;
+    /// use zeuhl_fraction::Fraction;
     ///
     /// let fraction = Fraction::new(1, 2);
     /// assert_eq!(fraction.to_string(), "1/2");
