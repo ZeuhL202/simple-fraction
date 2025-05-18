@@ -106,8 +106,11 @@ impl Fraction {
         self.denominator /= gcd;
     }
 
-    pub const fn abs(&mut self) {
-        self.numerator = self.numerator.abs();
+    pub const fn abs(self) -> Self {
+        Self {
+            numerator: self.numerator.abs(),
+            denominator: self.denominator,
+        }
     }
 
     pub const fn as_f64(&self) -> f64 {
